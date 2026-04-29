@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al Madar Al Jaded Auto Repairing | Expert Car Repair in Al Qusais, Dubai</title>
+  <meta name="description" content="Al Madar Al Jaded Auto Repairing — Dubai's trusted auto repair shop in Al Qusais Ind. Third. Fast, professional car servicing, bodywork & more. Call 050 688 2928." />
+  <meta name="keywords" content="auto repair Dubai, car repair Al Qusais, garage Dubai, car service Dubai, Al Madar Al Jaded, body repair Dubai, quick fix car Dubai, car workshop UAE" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Al Madar Al Jaded Auto Repairing" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="Al Madar Al Jaded Auto Repairing | Dubai's Trusted Garage" />
+  <meta property="og:description" content="Fast, professional auto repair in Al Qusais Ind. Third, Dubai. Rated 4.1★ by 22 customers. Call or WhatsApp 050 688 2928." />
+  <meta property="og:url" content="https://almadaraljadedauto.ae" />
+  <meta property="og:image" content="https://picsum.photos/seed/autorepair/1200/630" />
+  <meta property="og:locale" content="en_AE" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Al Madar Al Jaded Auto Repairing | Dubai" />
+  <meta name="twitter:description" content="Expert car repair & service in Al Qusais, Dubai. WhatsApp us today!" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Al Madar Al Jaded Auto Repairing",
+    "image": "https://picsum.photos/seed/autorepair/800/600",
+    "telephone": "+971506882928",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "79XQ+C6H, Al Qusais Ind. Third",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 25.2854,
+      "longitude": 55.3847
+    },
+    "url": "https://almadaraljadedauto.ae",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.1",
+      "reviewCount": "22"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Saturday","Sunday"],
+        "opens": "08:00",
+        "closes": "22:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "14:00",
+        "closes": "22:00"
+      }
+    ],
+    "review": [
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Suzan Nesrin Hakmi" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "Very fast repair and professional service. I am very happy with the outcome."
+      },
+      {
+        "@type": "Review",
+        "author": { "@type": "Person", "name": "Khalid Osama" },
+        "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+        "reviewBody": "Al Madar New Garage is the perfect choice! Excellent services with professional staff."
+      }
+    ]
+  }
+  </script>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Rajdhani (display) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Rajdhani', 'sans-serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              yellow: '#F5A623',
+              orange: '#E8620A',
+              dark: '#0A0A0F',
+              card: '#111118',
+              surface: '#1A1A24',
+              border: '#2A2A38',
+              muted: '#5A5A72',
+              light: '#E8E8F0',
+            }
+          },
+          animation: {
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4,0,0.6,1) infinite',
+            'float': 'float 3s ease-in-out infinite',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0A0A0F;
+      color: #E8E8F0;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, .font-display {
+      font-family: 'Rajdhani', sans-serif;
+    }
+
+    /* ============================
+       KEYFRAME ANIMATIONS
+    ============================== */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInLeft {
+      from { opacity: 0; transform: translateX(-40px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(40px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.85); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50%       { transform: translateY(-12px); }
+    }
+
+    @keyframes pulseBorder {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(245, 166, 35, 0.6); }
+      50%       { box-shadow: 0 0 0 14px rgba(245, 166, 35, 0); }
+    }
+
+    @keyframes waPulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+      50%       { box-shadow: 0 0 0 16px rgba(37, 211, 102, 0); }
+    }
+
+    @keyframes gradientShift {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    /* Animation Classes */
+    .animate-fade-up    { opacity: 0; }
+    .animate-fade-left  { opacity: 0; }
+    .animate-fade-right { opacity: 0; }
+    .animate-scale-in   { opacity: 0; }
+
+    .animate-fade-up.visible    { animation: fadeInUp 0.7s ease forwards; }
+    .animate-fade-left.visible  { animation: fadeInLeft 0.7s ease forwards; }
+    .animate-fade-right.visible { animation: fadeInRight 0.7s ease forwards; }
+    .animate-scale-in.visible   { animation: scaleIn 0.6s ease forwards; }
+
+    .delay-100 { animation-delay: 0.1s !important; }
+    .delay-200 { animation-delay: 0.2s !important; }
+    .delay-300 { animation-delay: 0.3s !important; }
+    .delay-400 { animation-delay: 0.4s !important; }
+    .delay-500 { animation-delay: 0.5s !important; }
+
+    /* Hero gradient text */
+    .gradient-text {
+      background: linear-gradient(135deg, #F5A623 0%, #E8620A 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Hero background */
+    .hero-bg {
+      background: linear-gradient(135deg, #0A0A0F 0%, #12121C 40%, #1a0d00 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-bg::before {
+      content: '';
+      position: absolute;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(245,166,35,0.12) 0%, transparent 70%);
+      top: -100px; right: -100px;
+      pointer-events: none;
+    }
+
+    .hero-bg::after {
+      content: '';
+      position: absolute;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(232,98,10,0.08) 0%, transparent 70%);
+      bottom: 50px; left: -50px;
+      pointer-events: none;
+    }
+
+    /* Glassmorphism nav */
+    .glass-nav {
+      background: rgba(10, 10, 15, 0.85);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(245, 166, 35, 0.15);
+    }
+
+    /* Card hover glow */
+    .service-card {
+      background: #111118;
+      border: 1px solid #2A2A38;
+      transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, #F5A623, #E8620A);
+      transform: scaleX(0);
+      transition: transform 0.35s ease;
+      transform-origin: left;
+    }
+
+    .service-card:hover {
+      border-color: rgba(245, 166, 35, 0.4);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 60px rgba(245, 166, 35, 0.12);
+    }
+
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    /* Review card */
+    .review-card {
+      background: #111118;
+      border: 1px solid #2A2A38;
+      transition: all 0.3s ease;
+    }
+
+    .review-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+      border-color: rgba(245,166,35,0.25);
+    }
+
+    /* CTA Button */
+    .btn-primary {
+      background: linear-gradient(135deg, #F5A623, #E8620A);
+      transition: all 0.3s ease;
+      animation: pulseBorder 2.5s infinite;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .btn-primary::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #E8620A, #F5A623);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .btn-primary:hover::after { opacity: 1; }
+    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(245,166,35,0.45); }
+    .btn-primary span { position: relative; z-index: 1; }
+
+    /* WhatsApp Floating */
+    .wa-float {
+      animation: waPulse 2s infinite;
+      transition: transform 0.3s ease;
+    }
+    .wa-float:hover { transform: scale(1.12); }
+
+    /* Input styles */
+    .form-input {
+      background: #1A1A24;
+      border: 1px solid #2A2A38;
+      color: #E8E8F0;
+      transition: all 0.3s ease;
+      outline: none;
+    }
+
+    .form-input:focus {
+      border-color: #F5A623;
+      box-shadow: 0 0 0 3px rgba(245,166,35,0.12);
+    }
+
+    .form-input::placeholder { color: #5A5A72; }
+
+    /* Status badge */
+    .status-dot-open  { background: #22c55e; box-shadow: 0 0 8px #22c55e; }
+    .status-dot-closed{ background: #ef4444; box-shadow: 0 0 8px #ef4444; }
+
+    /* Map placeholder */
+    .map-placeholder {
+      background: linear-gradient(135deg, #111118 0%, #1A1A24 100%);
+      border: 1px solid #2A2A38;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .map-placeholder::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: repeating-linear-gradient(
+        0deg, transparent, transparent 39px, rgba(245,166,35,0.04) 39px, rgba(245,166,35,0.04) 40px
+      ), repeating-linear-gradient(
+        90deg, transparent, transparent 39px, rgba(245,166,35,0.04) 39px, rgba(245,166,35,0.04) 40px
+      );
+    }
+
+    /* Stats counter */
+    .stat-card {
+      background: linear-gradient(135deg, #111118, #1A1A24);
+      border: 1px solid #2A2A38;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #0A0A0F; }
+    ::-webkit-scrollbar-thumb { background: #F5A623; border-radius: 3px; }
+
+    /* Section divider */
+    .section-divider {
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(245,166,35,0.3), transparent);
+    }
+
+    /* Neon line */
+    .neon-line {
+      height: 3px;
+      background: linear-gradient(90deg, #F5A623, #E8620A);
+      border-radius: 2px;
+    }
+
+    /* Logo mark */
+    .logo-mark {
+      font-family: 'Rajdhani', sans-serif;
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.5px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-h1 { font-size: 2.8rem; }
+    }
+
+    /* Hours row highlight */
+    .hours-today {
+      background: rgba(245,166,35,0.08);
+      border-left: 3px solid #F5A623;
+    }
+  </style>
+</head>
+
+<body class="bg-brand-dark text-brand-light font-body">
+
+  <!-- ============================================================
+       FLOATING WHATSAPP WIDGET
+  ============================================================ -->
+  <a href="https://wa.me/971506882928" target="_blank" rel="noopener"
+     class="wa-float fixed bottom-6 right-6 z-50 flex items-center justify-center w-16 h-16 rounded-full shadow-2xl"
+     style="background: linear-gradient(135deg, #25D366, #128C7E);"
+     aria-label="Chat on WhatsApp">
+    <i class="fab fa-whatsapp text-3xl text-white"></i>
+  </a>
+
+  <!-- ============================================================
+       STICKY NAV HEADER
+  ============================================================ -->
+  <header class="glass-nav sticky top-0 z-40 w-full">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-20">
+
+        <!-- Logo -->
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0"
+               style="background: linear-gradient(135deg, #F5A623, #E8620A);">
+            <i class="fas fa-wrench text-white text-sm"></i>
+          </div>
+          <div>
+            <div class="logo-mark text-white leading-none">
+              AL <span class="gradient-text">MADAR</span>
+            </div>
+            <div class="text-xs text-brand-muted tracking-widest uppercase leading-none mt-0.5">Auto Repairing</div>
+          </div>
+        </div>
+
+        <!-- Nav Links (desktop) -->
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="#services" class="text-sm text-brand-muted hover:text-brand-yellow transition-colors duration-200 font-medium">Services</a>
+          <a href="#reviews" class="text-sm text-brand-muted hover:text-brand-yellow transition-colors duration-200 font-medium">Reviews</a>
+          <a href="#about" class="text-sm text-brand-muted hover:text-brand-yellow transition-colors duration-200 font-medium">About</a>
+          <a href="#contact" class="text-sm text-brand-muted hover:text-brand-yellow transition-colors duration-200 font-medium">Contact</a>
+        </nav>
+
+        <!-- Right side -->
+        <div class="flex items-center gap-3">
+          <!-- Business Hours Badge -->
+          <div id="header-status-badge" class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-medium"
+               style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);">
+            <div id="header-status-dot" class="w-2 h-2 rounded-full status-dot-closed"></div>
+            <span id="header-status-text" class="text-brand-light">Checking…</span>
+          </div>
+          <!-- CTA -->
+          <a href="tel:+971506882928"
+             class="btn-primary text-white font-display font-semibold px-4 py-2 rounded-lg text-sm shadow-lg">
+            <span><i class="fas fa-phone-alt mr-1.5 text-xs"></i>Call Now</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section class="hero-bg min-h-screen flex items-center relative pt-20 pb-16" aria-label="Hero">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+
+          <!-- Left: Text -->
+          <div class="animate-fade-left">
+            <!-- Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 text-xs font-semibold tracking-wider uppercase"
+                 style="background: rgba(245,166,35,0.1); border: 1px solid rgba(245,166,35,0.3); color: #F5A623;">
+              <i class="fas fa-map-marker-alt"></i>
+              Al Qusais Ind. Third, Dubai
+            </div>
+
+            <h1 class="font-display font-bold text-white leading-tight mb-5 hero-h1"
+                style="font-size: clamp(2.6rem, 5vw, 4.2rem);">
+              Dubai's Most <span class="gradient-text">Trusted</span><br />
+              Auto Repair<br />
+              <span class="gradient-text">Specialists</span>
+            </h1>
+
+            <p class="text-brand-muted text-lg leading-relaxed mb-8 max-w-xl">
+              Fast, professional car repairs at <strong class="text-brand-light">Al Madar Al Jaded</strong> — where quality workmanship meets same-day service. Your vehicle deserves the best.
+            </p>
+
+            <!-- Rating Row -->
+            <div class="flex items-center gap-4 mb-8">
+              <div class="flex items-center gap-1">
+                <i class="fas fa-star text-brand-yellow text-lg"></i>
+                <i class="fas fa-star text-brand-yellow text-lg"></i>
+                <i class="fas fa-star text-brand-yellow text-lg"></i>
+                <i class="fas fa-star text-brand-yellow text-lg"></i>
+                <i class="fas fa-star-half-alt text-brand-yellow text-lg"></i>
+              </div>
+              <span class="font-display font-bold text-2xl text-white">4.1</span>
+              <span class="text-brand-muted text-sm">/ 22 Google Reviews</span>
+            </div>
+
+            <!-- CTAs -->
+            <div class="flex flex-wrap gap-4">
+              <a href="https://wa.me/971506882928?text=Hello%20Al%20Madar%20Al%20Jaded%2C%20I%20would%20like%20to%20book%20a%20car%20repair%20service."
+                 target="_blank"
+                 class="btn-primary inline-flex items-center gap-2.5 text-white font-display font-bold text-base px-7 py-4 rounded-xl shadow-xl">
+                <span><i class="fab fa-whatsapp text-lg"></i> Book via WhatsApp</span>
+              </a>
+              <a href="tel:+971506882928"
+                 class="inline-flex items-center gap-2.5 font-display font-semibold text-base px-7 py-4 rounded-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+                 style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.12); color: #E8E8F0;">
+                <i class="fas fa-phone-alt"></i> 050 688 2928
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Visual -->
+          <div class="animate-fade-right delay-200 flex justify-center lg:justify-end">
+            <div class="relative w-full max-w-lg">
+              <!-- Image card -->
+              <div class="rounded-2xl overflow-hidden shadow-2xl" style="border: 1px solid rgba(245,166,35,0.2);">
+                <img src="https://picsum.photos/seed/autogarage/800/600" alt="Al Madar Al Jaded Auto Repair Workshop Dubai"
+                     class="w-full h-80 lg:h-96 object-cover" loading="eager" />
+                <div class="absolute inset-0 rounded-2xl"
+                     style="background: linear-gradient(to top, rgba(10,10,15,0.7) 0%, transparent 60%); pointer-events:none;"></div>
+              </div>
+
+              <!-- Floating stat card -->
+              <div class="absolute -bottom-6 -left-6 px-5 py-4 rounded-2xl shadow-2xl animate-float"
+                   style="background: linear-gradient(135deg, #F5A623, #E8620A); min-width: 150px;">
+                <div class="font-display font-bold text-3xl text-white">22+</div>
+                <div class="text-xs text-white/80 font-medium mt-0.5">Verified Reviews</div>
+              </div>
+
+              <!-- Floating badge -->
+              <div class="absolute -top-5 -right-5 px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-3"
+                   style="background: #111118; border: 1px solid rgba(245,166,35,0.3);">
+                <i class="fas fa-shield-alt text-brand-yellow text-xl"></i>
+                <div>
+                  <div class="font-display font-bold text-white text-sm">Trusted</div>
+                  <div class="text-xs text-brand-muted">Since Years</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS BAR
+    ============================================================ -->
+    <section class="py-10 relative" aria-label="Stats" style="background: #0D0D14;">
+      <div class="section-divider absolute top-0 w-full"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="stat-card rounded-xl p-5 text-center animate-scale-in">
+            <div class="font-display font-bold text-4xl gradient-text">4.1★</div>
+            <div class="text-brand-muted text-sm mt-1">Google Rating</div>
+          </div>
+          <div class="stat-card rounded-xl p-5 text-center animate-scale-in delay-100">
+            <div class="font-display font-bold text-4xl gradient-text">22+</div>
+            <div class="text-brand-muted text-sm mt-1">Happy Customers</div>
+          </div>
+          <div class="stat-card rounded-xl p-5 text-center animate-scale-in delay-200">
+            <div class="font-display font-bold text-4xl gradient-text">48H</div>
+            <div class="text-brand-muted text-sm mt-1">Average Turnaround</div>
+          </div>
+          <div class="stat-card rounded-xl p-5 text-center animate-scale-in delay-300">
+            <div class="font-display font-bold text-4xl gradient-text">100%</div>
+            <div class="text-brand-muted text-sm mt-1">Professional Staff</div>
+          </div>
+        </div>
+      </div>
+      <div class="section-divider absolute bottom-0 w-full"></div>
+    </section>
+
+    <!-- ============================================================
+         SERVICES SECTION
+    ============================================================ -->
+    <section id="services" class="py-20 lg:py-28 relative" style="background: #0A0A0F;" aria-labelledby="services-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section Header -->
+        <div class="text-center mb-14 animate-fade-up">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-4 text-xs font-semibold tracking-wider uppercase"
+               style="background: rgba(245,166,35,0.1); border: 1px solid rgba(245,166,35,0.25); color: #F5A623;">
+            <i class="fas fa-cog"></i> What We Do
+          </div>
+          <h2 id="services-heading" class="font-display font-bold text-white text-4xl lg:text-5xl mb-4">
+            Comprehensive <span class="gradient-text">Auto Services</span>
+          </h2>
+          <p class="text-brand-muted text-lg max-w-2xl mx-auto">
+            From quick fixes to full restorations — our expert technicians handle every make & model with precision and care.
+          </p>
+          <div class="neon-line w-20 mx-auto mt-6"></div>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+          <!-- Service 1 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-100">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-car-crash text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Body Repair & Denting</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              Expert dent removal, panel beating, and bodywork restoration. We bring your vehicle back to factory condition.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs transition-transform duration-300 group-hover:translate-x-1"></i>
+            </div>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-200">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-paint-roller text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Painting & Refinishing</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              Full car painting, spot painting, and color matching using premium automotive-grade paints for a perfect finish.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </div>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-300">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-oil-can text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Engine & Mechanical</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              Complete engine diagnostics, oil changes, filter replacements, and mechanical overhauls by certified technicians.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </div>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-100">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-tachometer-alt text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Computer Diagnostics</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              State-of-the-art OBD scanning and diagnostics to identify electrical, engine, and transmission faults accurately.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </div>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-200">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-file-invoice-dollar text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Insurance Repairs</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              We handle insurance-approved repairs for all major UAE insurers. Hassle-free claims processing assistance.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </div>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="service-card rounded-2xl p-7 animate-fade-up delay-300">
+            <div class="w-14 h-14 rounded-xl flex items-center justify-center mb-5"
+                 style="background: linear-gradient(135deg, rgba(245,166,35,0.15), rgba(232,98,10,0.1));">
+              <i class="fas fa-spray-can text-brand-yellow text-2xl"></i>
+            </div>
+            <h3 class="font-display font-bold text-white text-xl mb-3">Car Wash & Detailing</h3>
+            <p class="text-brand-muted text-sm leading-relaxed">
+              Interior and exterior detailing, polishing, and deep cleaning to keep your car showroom-fresh every time.
+            </p>
+            <div class="mt-5 flex items-center gap-2 text-brand-yellow text-sm font-semibold">
+              <span>Learn More</span>
+              <i class="fas fa-arrow-right text-xs"></i>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         WHY CHOOSE US
+    ============================================================ -->
+    <section id="about" class="py-20 lg:py-28 relative" style="background: #0D0D14;" aria-labelledby="about-heading">
+      <div class="section-divider absolute top-0 w-full"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+          <!-- Left: Image stack -->
+          <div class="animate-fade-left relative">
+            <div class="rounded-2xl overflow-hidden shadow-2xl" style="border: 1px solid rgba(245,166,35,0.15);">
+              <img src="https://picsum.photos/seed/carworkshop/800/550" alt="Al Madar Al Jaded garage interior Dubai"
+                   class="w-full h-80 lg:h-96 object-cover" loading="lazy" />
+            </div>
+            <!-- Overlay badge -->
+            <div class="absolute -bottom-8 -right-4 lg:right-0 xl:-right-6 rounded-2xl px-6 py-5 shadow-2xl"
+                 style="background: #111118; border: 1px solid rgba(245,166,35,0.25);">
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 rounded-full flex items-center justify-center"
+                     style="background: linear-gradient(135deg, #F5A623, #E8620A);">
+                  <i class="fas fa-trophy text-white text-lg"></i>
+                </div>
+                <div>
+                  <div class="font-display font-bold text-white text-lg leading-none">Top Rated</div>
+                  <div class="text-brand-muted text-xs mt-0.5">Al Qusais, Dubai</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="animate-fade-right lg:pl-4">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-5 text-xs font-semibold tracking-wider uppercase"
+                 style="background: rgba(245,166,35,0.1); border: 1px solid rgba(245,166,35,0.25); color: #F5A623;">
+              <i class="fas fa-info-circle"></i> Why Choose Us
+            </div>
+            <h2 id="about-heading" class="font-display font-bold text-white text-4xl lg:text-5xl mb-5 leading-tight">
+              Quality Work,<br /><span class="gradient-text">Every Time</span>
+            </h2>
+            <p class="text-brand-muted text-base leading-relaxed mb-8">
+              At Al Madar Al Jaded Auto Repairing, we combine years of hands-on experience with modern diagnostic tools to deliver repairs that truly last. Our team is committed to transparency, timeliness, and top-tier results.
+            </p>
+
+            <!-- Feature list -->
+            <div class="space-y-4">
+              <div class="flex items-start gap-4">
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-bolt text-brand-yellow text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-display font-semibold text-white text-lg">Fast Turnaround</h3>
+                  <p class="text-brand-muted text-sm leading-relaxed">Most repairs completed within 48 hours. We respect your time.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-user-check text-brand-yellow text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-display font-semibold text-white text-lg">Certified Professionals</h3>
+                  <p class="text-brand-muted text-sm leading-relaxed">Our technicians are trained, experienced, and dedicated to excellence.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-hand-holding-usd text-brand-yellow text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-display font-semibold text-white text-lg">Transparent Pricing</h3>
+                  <p class="text-brand-muted text-sm leading-relaxed">No hidden charges. We explain every cost before we start working.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-9 h-9 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-car text-brand-yellow text-sm"></i>
+                </div>
+                <div>
+                  <h3 class="font-display font-semibold text-white text-lg">All Makes & Models</h3>
+                  <p class="text-brand-muted text-sm leading-relaxed">Japanese, European, American, or Korean — we service them all.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-divider absolute bottom-0 w-full"></div>
+    </section>
+
+    <!-- ============================================================
+         REVIEWS SECTION
+    ============================================================ -->
+    <section id="reviews" class="py-20 lg:py-28 relative" style="background: #0A0A0F;" aria-labelledby="reviews-heading">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section Header -->
+        <div class="text-center mb-14 animate-fade-up">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-4 text-xs font-semibold tracking-wider uppercase"
+               style="background: rgba(245,166,35,0.1); border: 1px solid rgba(245,166,35,0.25); color: #F5A623;">
+            <i class="fas fa-star"></i> Customer Reviews
+          </div>
+          <h2 id="reviews-heading" class="font-display font-bold text-white text-4xl lg:text-5xl mb-4">
+            What Our <span class="gradient-text">Customers Say</span>
+          </h2>
+          <!-- Rating summary -->
+          <div class="flex flex-col items-center gap-3 mt-6">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-star text-brand-yellow text-2xl"></i>
+              <i class="fas fa-star text-brand-yellow text-2xl"></i>
+              <i class="fas fa-star text-brand-yellow text-2xl"></i>
+              <i class="fas fa-star text-brand-yellow text-2xl"></i>
+              <i class="fas fa-star-half-alt text-brand-yellow text-2xl"></i>
+            </div>
+            <div class="font-display font-bold text-white text-3xl">4.1 <span class="text-brand-muted text-lg font-body font-normal">/ 5 on Google Maps</span></div>
+            <div class="text-brand-muted text-sm">Based on 22 verified reviews</div>
+          </div>
+          <div class="neon-line w-20 mx-auto mt-6"></div>
+        </div>
+
+        <!-- Review Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+          <!-- Review 1 -->
+          <article class="review-card rounded-2xl p-7 animate-fade-up delay-100">
+            <div class="flex items-center gap-1 mb-4">
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+            </div>
+            <blockquote class="text-brand-light text-sm leading-relaxed mb-5 italic">
+              "Very fast repair and professional service. I am very happy with the outcome. Thank you very much for the amazing prompt repair and wash."
+            </blockquote>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm"
+                   style="background: linear-gradient(135deg, #F5A623, #E8620A); color: white;">
+                SN
+              </div>
+              <div>
+                <div class="text-white font-semibold text-sm">Suzan Nesrin Hakmi</div>
+                <div class="text-brand-muted text-xs">Local Guide · 7 months ago</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 2 -->
+          <article class="review-card rounded-2xl p-7 animate-fade-up delay-200">
+            <div class="flex items-center gap-1 mb-4">
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="far fa-star text-brand-yellow text-sm"></i>
+            </div>
+            <blockquote class="text-brand-light text-sm leading-relaxed mb-5 italic">
+              "Nice and quick fix. They told me they will finish it within 2 days and they did. Thank you — hope you have a near branch in Dubai!"
+            </blockquote>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm"
+                   style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white;">
+                RM
+              </div>
+              <div>
+                <div class="text-white font-semibold text-sm">Remegio Millares</div>
+                <div class="text-brand-muted text-xs">Local Guide · 8 months ago</div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 3 -->
+          <article class="review-card rounded-2xl p-7 animate-fade-up delay-300">
+            <div class="flex items-center gap-1 mb-4">
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+              <i class="fas fa-star text-brand-yellow text-sm"></i>
+            </div>
+            <blockquote class="text-brand-light text-sm leading-relaxed mb-5 italic">
+              "If you are looking for the best place to service your car, then Al Madar New Garage is the perfect choice! Excellent services with professional staff."
+            </blockquote>
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full flex items-center justify-center font-display font-bold text-sm"
+                   style="background: linear-gradient(135deg, #10b981, #065f46); color: white;">
+                KO
+              </div>
+              <div>
+                <div class="text-white font-semibold text-sm">Khalid Osama</div>
+                <div class="text-brand-muted text-xs">Verified Customer · 1 year ago</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- CTA -->
+        <div class="text-center mt-10 animate-fade-up">
+          <a href="https://maps.google.com/?q=Al+Madar+Al+Jaded+Auto+Repairing+Dubai" target="_blank"
+             class="inline-flex items-center gap-2 text-brand-yellow text-sm font-semibold hover:underline transition-all duration-200">
+            <i class="fab fa-google"></i> View All 22 Reviews on Google Maps
+            <i class="fas fa-external-link-alt text-xs"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         CONTACT SECTION
+    ============================================================ -->
+    <section id="contact" class="py-20 lg:py-28 relative" style="background: #0D0D14;" aria-labelledby="contact-heading">
+      <div class="section-divider absolute top-0 w-full"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <!-- Section Header -->
+        <div class="text-center mb-14 animate-fade-up">
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full mb-4 text-xs font-semibold tracking-wider uppercase"
+               style="background: rgba(245,166,35,0.1); border: 1px solid rgba(245,166,35,0.25); color: #F5A623;">
+            <i class="fas fa-headset"></i> Get In Touch
+          </div>
+          <h2 id="contact-heading" class="font-display font-bold text-white text-4xl lg:text-5xl mb-4">
+            Contact & <span class="gradient-text">Visit Us</span>
+          </h2>
+          <div class="neon-line w-20 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-10">
+
+          <!-- Left: WhatsApp Form -->
+          <div class="animate-fade-left">
+            <div class="rounded-2xl p-8 lg:p-10 shadow-2xl" style="background: #111118; border: 1px solid #2A2A38;">
+              <div class="flex items-center gap-3 mb-7">
+                <div class="w-11 h-11 rounded-xl flex items-center justify-center"
+                     style="background: linear-gradient(135deg, #25D366, #128C7E);">
+                  <i class="fab fa-whatsapp text-white text-xl"></i>
+                </div>
+                <div>
+                  <h3 class="font-display font-bold text-white text-xl">Send a WhatsApp Message</h3>
+                  <p class="text-brand-muted text-xs">We typically reply within minutes</p>
+                </div>
+              </div>
+
+              <form id="wa-form" class="space-y-5" onsubmit="sendToWhatsApp(event)">
+                <div>
+                  <label for="name" class="block text-xs font-semibold text-brand-muted uppercase tracking-wider mb-2">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="e.g. Ahmed Al Mansouri"
+                         class="form-input w-full rounded-xl px-4 py-3.5 text-sm" required />
+                </div>
+                <div>
+                  <label for="service" class="block text-xs font-semibold text-brand-muted uppercase tracking-wider mb-2">Service Needed</label>
+                  <select id="service" name="service" class="form-input w-full rounded-xl px-4 py-3.5 text-sm" required>
+                    <option value="" disabled selected>Select a service…</option>
+                    <option>Body Repair & Denting</option>
+                    <option>Painting & Refinishing</option>
+                    <option>Engine & Mechanical</option>
+                    <option>Computer Diagnostics</option>
+                    <option>Insurance Repair</option>
+                    <option>Car Wash & Detailing</option>
+                    <option>General Inspection</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="message" class="block text-xs font-semibold text-brand-muted uppercase tracking-wider mb-2">Message / Car Details</label>
+                  <textarea id="message" name="message" rows="4" placeholder="Briefly describe your car issue or request…"
+                            class="form-input w-full rounded-xl px-4 py-3.5 text-sm resize-none"></textarea>
+                </div>
+
+                <button type="submit"
+                        class="btn-primary w-full flex items-center justify-center gap-3 text-white font-display font-bold text-base py-4 rounded-xl shadow-xl">
+                  <span><i class="fab fa-whatsapp text-lg"></i> Send via WhatsApp</span>
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Right: Info + Hours + Map -->
+          <div class="animate-fade-right space-y-6">
+
+            <!-- Contact Info Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <a href="tel:+971506882928"
+                 class="flex items-center gap-4 rounded-xl p-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl"
+                 style="background: #111118; border: 1px solid #2A2A38;">
+                <div class="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-phone-alt text-brand-yellow"></i>
+                </div>
+                <div>
+                  <div class="text-brand-muted text-xs uppercase tracking-wider font-semibold mb-0.5">Phone</div>
+                  <div class="text-white font-semibold text-sm">050 688 2928</div>
+                </div>
+              </a>
+
+              <div class="flex items-center gap-4 rounded-xl p-5"
+                   style="background: #111118; border: 1px solid #2A2A38;">
+                <div class="w-11 h-11 rounded-xl flex items-center justify-center flex-shrink-0"
+                     style="background: rgba(245,166,35,0.12);">
+                  <i class="fas fa-map-marker-alt text-brand-yellow"></i>
+                </div>
+                <div>
+                  <div class="text-brand-muted text-xs uppercase tracking-wider font-semibold mb-0.5">Location</div>
+                  <div class="text-white font-semibold text-sm">Al Qusais Ind. Third, Dubai</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business Hours Card -->
+            <div class="rounded-2xl p-6 shadow-xl" style="background: #111118; border: 1px solid #2A2A38;">
+              <div class="flex items-center justify-between mb-5">
+                <h3 class="font-display font-bold text-white text-xl flex items-center gap-2">
+                  <i class="fas fa-clock text-brand-yellow"></i> Business Hours
+                </h3>
+                <!-- Status Badge -->
+                <div id="contact-status-badge" class="flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold"
+                     style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08);">
+                  <div id="contact-status-dot" class="w-2 h-2 rounded-full status-dot-closed"></div>
+                  <span id="contact-status-text" class="text-brand-light">Checking…</span>
+                </div>
+              </div>
+
+              <div class="space-y-1" id="hours-list">
+                <!-- Populated by JS -->
+              </div>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-placeholder rounded-2xl overflow-hidden" style="height: 200px;">
+              <a href="https://maps.google.com/?q=79XQ%2BC6H+Al+Qusais+Ind.+Third+Dubai" target="_blank"
+                 class="relative w-full h-full flex flex-col items-center justify-center gap-3 group">
+                <div class="w-16 h-16 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-300 group-hover:scale-110"
+                     style="background: linear-gradient(135deg, #F5A623, #E8620A);">
+                  <i class="fas fa-map-pin text-white text-2xl"></i>
+                </div>
+                <div class="text-center">
+                  <div class="font-display font-bold text-white text-lg">Find Us on Google Maps</div>
+                  <div class="text-brand-muted text-sm">79XQ+C6H · Al Qusais Ind. Third, Dubai</div>
+                </div>
+                <div class="flex items-center gap-2 text-brand-yellow text-xs font-semibold mt-1">
+                  <span>Open in Google Maps</span>
+                  <i class="fas fa-external-link-alt text-xs"></i>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-divider absolute bottom-0 w-full"></div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <div style="text-align: center; padding: 2rem; background-color: #0f172a; color: #fff; margin-top: 4rem;">
+    <p style="margin: 0; font-size: 14px; opacity: 0.9;">&copy; 2026 Al Madar Al Jaded Auto Repairing. All Rights Reserved.</p>
+    <p style="margin-top: 5px; font-size: 12px; opacity: 0.5;">Powered by ZAQ Technologies</p>
+  </div>
+
+
+  <!-- ============================================================
+       JAVASCRIPT
+  ============================================================ -->
+  <script>
+    // =============================================
+    // 1. BUSINESS HOURS ENGINE
+    // =============================================
+    const BUSINESS_HOURS = [
+      { day: 'Sunday',    open: '08:00', close: '22:00', label: 'Sun' },
+      { day: 'Monday',    open: '08:00', close: '22:00', label: 'Mon' },
+      { day: 'Tuesday',   open: '08:00', close: '22:00', label: 'Tue' },
+      { day: 'Wednesday', open: '08:00', close: '22:00', label: 'Wed' },
+      { day: 'Thursday',  open: '08:00', close: '22:00', label: 'Thu' },
+      { day: 'Friday',    open: '14:00', close: '22:00', label: 'Fri' },
+      { day: 'Saturday',  open: '08:00', close: '22:00', label: 'Sat' },
+    ];
+
+    const DAY_NAMES_FULL = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+    function isOpenNow() {
+      const now = new Date();
+      const dayIndex = now.getDay(); // 0=Sun
+      const hours = BUSINESS_HOURS[dayIndex];
+      if (!hours) return false;
+
+      const [openH, openM]  = hours.open.split(':').map(Number);
+      const [closeH, closeM]= hours.close.split(':').map(Number);
+      const currentMinutes  = now.getHours() * 60 + now.getMinutes();
+      const openMinutes     = openH * 60 + openM;
+      const closeMinutes    = closeH * 60 + closeM;
+
+      return currentMinutes >= openMinutes && currentMinutes < closeMinutes;
+    }
+
+    function updateStatusBadge() {
+      const open = isOpenNow();
+      const statusText = open ? 'Open Now' : 'Closed';
+
+      ['header', 'contact'].forEach(prefix => {
+        const dot  = document.getElementById(`${prefix}-status-dot`);
+        const text = document.getElementById(`${prefix}-status-text`);
+        if (!dot || !text) return;
+
+        dot.classList.remove('status-dot-open', 'status-dot-closed');
+        dot.classList.add(open ? 'status-dot-open' : 'status-dot-closed');
+        text.textContent = statusText;
+        text.style.color = open ? '#22c55e' : '#ef4444';
+      });
+    }
+
+    function buildHoursList() {
+      const list = document.getElementById('hours-list');
+      if (!list) return;
+      const todayIndex = new Date().getDay();
+
+      BUSINESS_HOURS.forEach((h, idx) => {
+        const isToday = idx === todayIndex;
+        const row = document.createElement('div');
+        row.className = `flex items-center justify-between py-2.5 px-3 rounded-lg text-sm ${isToday ? 'hours-today' : ''}`;
+        row.innerHTML = `
+          <span class="font-medium ${isToday ? 'text-brand-yellow' : 'text-brand-light'}"
+                style="${isToday ? 'color:#F5A623;font-weight:600;' : 'color:#E8E8F0;'}">
+            ${h.day}${isToday ? ' <span style="font-size:10px;color:#F5A623;opacity:0.8;">(Today)</span>' : ''}
+          </span>
+          <span style="color:${isToday ? '#F5A623' : '#9ca3af'}; font-family:'Rajdhani',sans-serif; font-weight:600; font-size:0.9rem;">
+            ${h.open} – ${h.close}
+          </span>
+        `;
+        list.appendChild(row);
+      });
+    }
+
+    // Run on load
+    updateStatusBadge();
+    buildHoursList();
+    // Refresh every minute
+    setInterval(updateStatusBadge, 60000);
+
+
+    // =============================================
+    // 2. WHATSAPP FORM FUNCTION
+    // =============================================
+    function sendToWhatsApp(e) {
+      e.preventDefault();
+      const name    = document.getElementById('name').value.trim();
+      const service = document.getElementById('service').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const formatted =
+        `Hello Al Madar Al Jaded Auto Repairing! 🔧\n\n` +
+        `My name is *${name}*.\n` +
+        `I am interested in: *${service}*.\n` +
+        (message ? `\nDetails: ${message}\n` : '') +
+        `\nCould you please help me? Thank you!`;
+
+      const encoded = encodeURIComponent(formatted);
+      window.open(`https://wa.me/971506882928?text=${encoded}`, '_blank');
+    }
+
+
+    // =============================================
+    // 3. INTERSECTION OBSERVER (SCROLL ANIMATIONS)
+    // =============================================
+    const animatables = document.querySelectorAll(
+      '.animate-fade-up, .animate-fade-left, .animate-fade-right, .animate-scale-in'
+    );
+
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -60px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    animatables.forEach(el => observer.observe(el));
+
+
+    // =============================================
+    // 4. STICKY NAV SCROLL EFFECT
+    // =============================================
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('header');
+      if (window.scrollY > 40) {
+        nav.style.boxShadow = '0 4px 30px rgba(0,0,0,0.5)';
+      } else {
+        nav.style.boxShadow = 'none';
+      }
+    }, { passive: true });
+
+  </script>
+
+</body>
+</html>
